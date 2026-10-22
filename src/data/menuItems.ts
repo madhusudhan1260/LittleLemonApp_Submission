@@ -1,0 +1,58 @@
+import { MenuItem } from '../types';
+
+export const INITIAL_MENU_ITEMS: MenuItem[] = [
+  {
+    id: '1',
+    name: 'Greek Salad',
+    description: 'The famous Greek salad with crispy lettuce, peppers, olives and our signature dressing.',
+    price: 12.99,
+    category: 'starters',
+    image: require('../../assets/menu/greek-salad.jpg'),
+    imageUrl: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&q=80',
+  },
+  {
+    id: '2',
+    name: 'Bruschetta',
+    description: 'Grilled bread topped with tomatoes, garlic, basil and olive oil.',
+    price: 7.99,
+    category: 'starters',
+    image: require('../../assets/menu/bruschetta.jpg'),
+    imageUrl: 'https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?w=400&q=80',
+  },
+  {
+    id: '3',
+    name: 'Grilled Fish',
+    description: 'Fresh catch of the day with herbs, lemon and seasonal vegetables.',
+    price: 20.00,
+    category: 'mains',
+    image: require('../../assets/menu/grilled-fish.jpg'),
+    imageUrl: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=400&q=80',
+  },
+  {
+    id: '4',
+    name: 'Pasta',
+    description: 'Penne with tomato sauce, fresh chilli, garlic, basil and Parmesan.',
+    price: 18.99,
+    category: 'mains',
+    image: require('../../assets/menu/pasta.jpg'),
+    imageUrl: 'https://images.unsplash.com/photo-1621996346565-e3d5d6281699?w=400&q=80',
+  },
+  {
+    id: '5',
+    name: 'Lemon Dessert',
+    description: 'Light and fluffy homemade Italian lemon and ricotta cake.',
+    price: 6.99,
+    category: 'desserts',
+    image: require('../../assets/menu/lemon-dessert.jpg'),
+    imageUrl: 'https://images.unsplash.com/photo-1587314168485-3236d6710814?w=400&q=80',
+  },
+  {
+    id: '6',
+    name: 'Fresh Lemonade',
+    description: 'Refreshing house-made lemonade with freshly squeezed lemons.',
+    price: 4.50,
+    category: 'drinks',
+    image: require('../../assets/menu/lemonade.jpg'),
+    imageUrl: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=400&q=80',
+  },
+];
